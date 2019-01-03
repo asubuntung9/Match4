@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{1fbcae2a-6986-4594-8bdb-a02c1c3d7bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{63480ef6-f746-4718-afb4-b4a94c3370e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConnectFour">
+      <UniqueIdentifier>{8572697e-225a-493a-abac-ddd482e65440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GenericImplementations">
+      <UniqueIdentifier>{fcd25233-5ab7-4096-bf97-2be85e45a250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TicTacToe">
+      <UniqueIdentifier>{80510c20-66b2-44a3-aa9d-35f5dc71c4ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Interface\Board.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Interface\GameAi.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Interface\GameState.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConnectFour\ConnectFourBoard.h">
+      <Filter>ConnectFour</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConnectFour\ConnectFourGameState.h">
+      <Filter>ConnectFour</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Interface\Types.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GenericImplementations\RandomAi.h">
+      <Filter>GenericImplementations</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConnectFour\ConnectFourTypes.h">
+      <Filter>ConnectFour</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Application.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TicTacToe\TicTacToeBoard.h">
+      <Filter>TicTacToe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TicTacToe\TicTacToeGameState.h">
+      <Filter>TicTacToe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TicTacToe\TicTacToeTypes.h">
+      <Filter>TicTacToe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GenericImplementations\MinMaxAi.h">
+      <Filter>GenericImplementations</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GenericImplementations\State.h">
+      <Filter>GenericImplementations</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GenericImplementations\MCTS.h">
+      <Filter>GenericImplementations</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ConnectFour\ConnectFourBoard.cpp">
+      <Filter>ConnectFour</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConnectFour\ConnectFourGameState.cpp">
+      <Filter>ConnectFour</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Main.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GenericImplementations\RandomAi.cpp">
+      <Filter>GenericImplementations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Application.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TicTacToe\TicTacToeBoard.cpp">
+      <Filter>TicTacToe</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TicTacToe\TicTacToeGameState.cpp">
+      <Filter>TicTacToe</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GenericImplementations\MinMaxAi.cpp">
+      <Filter>GenericImplementations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GenericImplementations\State.cpp">
+      <Filter>GenericImplementations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GenericImplementations\MCTS.cpp">
+      <Filter>GenericImplementations</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
